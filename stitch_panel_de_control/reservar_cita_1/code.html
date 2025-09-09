@@ -1,0 +1,158 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #333333;
+        --secondary-color: #FFFFFF;
+        --background-color: #ffffff;
+        --surface-color: #f5f5f0;
+        --border-color: #e6e6db;
+      }
+      .time-selector {
+        -ms-overflow-style: none;scrollbar-width: none;}
+      .time-selector::-webkit-scrollbar {
+        display: none;}
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--background-color)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="flex-grow">
+<header class="sticky top-0 z-10 flex items-center justify-between border-b border-[var(--border-color)] bg-[var(--background-color)] p-4">
+<button class="flex size-10 items-center justify-center rounded-full text-black">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="flex-1 text-center text-xl font-bold text-black">Reservar Cita</h1>
+<div class="size-10"></div>
+</header>
+<main class="p-4">
+<section class="mb-6">
+<h2 class="mb-4 text-lg font-bold text-black">Selecciona un Servicio</h2>
+<div class="flex flex-wrap gap-3">
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input checked="" class="peer sr-only" name="service" type="radio"/>
+<span>Corte de pelo</span>
+</label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="service" type="radio"/>
+<span>Afeitado</span>
+</label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="service" type="radio"/>
+<span>Corte y Afeitado</span>
+</label>
+</div>
+</section>
+<section class="mb-6">
+<h2 class="mb-4 text-lg font-bold text-black">Elige la Fecha</h2>
+<div class="rounded-2xl bg-[var(--surface-color)] p-4">
+<div class="mb-4 flex items-center justify-between">
+<button class="flex size-10 items-center justify-center rounded-full text-black hover:bg-gray-200">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<p class="text-base font-bold text-black">Julio 2024</p>
+<button class="flex size-10 items-center justify-center rounded-full text-black hover:bg-gray-200">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+<div class="grid grid-cols-7 text-center">
+<p class="h-10 w-full text-xs font-bold text-gray-500">D</p>
+<p class="h-10 w-full text-xs font-bold text-gray-500">L</p>
+<p class="h-10 w-full text-xs font-bold text-gray-500">M</p>
+<p class="h-10 w-full text-xs font-bold text-gray-500">X</p>
+<p class="h-10 w-full text-xs font-bold text-gray-500">J</p>
+<p class="h-10 w-full text-xs font-bold text-gray-500">V</p>
+<p class="h-10 w-full text-xs font-bold text-gray-500">S</p>
+<div class="h-10"></div>
+<div class="h-10"></div>
+<div class="h-10"></div>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">1</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">2</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">3</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">4</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full bg-[var(--primary-color)] text-sm font-bold text-[var(--secondary-color)]">5</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">6</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">7</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">8</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">9</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">10</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">11</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">12</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">13</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">14</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">15</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">16</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">17</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">18</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">19</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">20</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">21</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">22</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">23</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">24</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">25</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">26</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">27</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">28</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">29</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">30</button>
+<button class="flex h-10 w-full items-center justify-center rounded-full text-sm font-medium text-black hover:bg-gray-200">31</button>
+</div>
+</div>
+</section>
+<section class="mb-6">
+<h2 class="mb-4 text-lg font-bold text-black">Selecciona la Hora</h2>
+<div class="time-selector flex gap-3 overflow-x-auto pb-2">
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="time" type="radio"/><span>10:00 AM</span></label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--primary-color)] bg-[var(--primary-color)] px-4 py-2 text-sm font-medium text-[var(--secondary-color)]">
+<input checked="" class="peer sr-only" name="time" type="radio"/><span>10:30 AM</span></label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="time" type="radio"/><span>11:00 AM</span></label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="time" type="radio"/><span>11:30 AM</span></label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="time" type="radio"/><span>12:00 PM</span></label>
+</div>
+</section>
+<section class="mb-6">
+<h2 class="mb-4 text-lg font-bold text-black">Elige tu Barbero</h2>
+<div class="flex flex-wrap gap-3">
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input checked="" class="peer sr-only" name="barber" type="radio"/>
+<span>Cualquiera</span>
+</label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="barber" type="radio"/>
+<span>Juan</span>
+</label>
+<label class="flex cursor-pointer items-center justify-center rounded-full border border-[var(--border-color)] px-4 py-2 text-sm font-medium text-black has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[var(--primary-color)] has-[:checked]:text-[var(--secondary-color)]">
+<input class="peer sr-only" name="barber" type="radio"/>
+<span>Pedro</span>
+</label>
+</div>
+</section>
+</main>
+</div>
+<footer class="sticky bottom-0 border-t border-[var(--border-color)] bg-[var(--background-color)] p-4">
+<button class="w-full rounded-full bg-[var(--primary-color)] py-3 text-base font-bold text-[var(--secondary-color)]">
+          Reservar
+        </button>
+</footer>
+</div>
+</body></html>
